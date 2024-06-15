@@ -84,7 +84,7 @@ function getComputerHand()
 function playRockPaperScissors()
 {
     $playerHand = getHumanPlayerHand();
-    $computerHand = getComputerHand();
+    $computerHand = getComputerPlayerHand();
 
     show("🎮 Player: {$playerHand}");
     show("\tVS");
